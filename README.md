@@ -10,3 +10,5 @@ https://www.tecmint.com/use-linux-awk-command-to-filter-text-string-in-files/
 http://www.gnuplot.info/docs_5.0/gnuplot.pdf
 
 https://www.w3schools.com/php/php_form_complete.asp
+
+http://www.csc.villanova.edu/~mdamian/threads/posixthreads.html
