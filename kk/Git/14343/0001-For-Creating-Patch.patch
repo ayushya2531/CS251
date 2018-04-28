@@ -1,0 +1,26 @@
+From e464b2564e456cb4b53925575c9e695d1c84854b Mon Sep 17 00:00:00 2001
+From: User 2 <user2@iitk.ac.in>
+Date: Wed, 28 Feb 2018 09:58:40 +0530
+Subject: [PATCH] For Creating Patch
+
+---
+ hello.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/hello.c b/hello.c
+index 763308a..34a74f9 100644
+--- a/hello.c
++++ b/hello.c
+@@ -6,6 +6,9 @@ void main(){
+     printf("Helloworld!\n");
+     printf("This must be a monolithic design\n");
+     microkernel_sendmsg("is more portable");
++
++    // The following code will be generated in a patch
++    printf("Added code for creating a patch");
+ }
+ 
+ void microkernel_sendmsg(char *a){
+-- 
+2.15.1
+
